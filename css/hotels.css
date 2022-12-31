@@ -1,0 +1,84 @@
+body{
+    width: 80%;
+    margin: 5px auto; 
+}
+.banner{
+    background-color:#466971;
+      font-size: 4.625rem;
+      font-family:'Courier New', Courier, monospace;
+      color: white;
+      text-align: center; 
+      width: 100%;
+      border-radius: 49PX;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: black;
+  font-size: 16px;
+  background: #C6B497;
+  padding: 10px 159px 10px 159px;
+  text-decoration: none;
+ margin: 5px 1px;
+}
+
+.btn1:hover {
+  background: #839B97;
+  text-decoration: none;
+}
+.header{
+   width: 100%; 
+   margin: 20px auto; 
+   padding: 20px;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #101111;
+  /* border-style: solid;
+  border-color: #111111;
+  border-radius: 10px;
+  background-color: #3f84df38; */
+ }
+  .text{
+    font-family:arial;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  .title{
+      font-size: 1.7rem;
+      font-weight: bold;
+      color: blue;
+      margin: 20px 20px;
+  }
+  .list{
+    list-style-type: square;
+  }
+  .images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .bottom{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    margin-top: 30px;
+    background-color: #09205e;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+    padding-top: 10px;      
+    padding-bottom: 10px;
+     
+}

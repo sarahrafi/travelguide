@@ -1,0 +1,79 @@
+body{
+    width: 80%;
+    margin: 5px auto;
+}
+.banner{
+    background-color: #466971;
+      font-size: 4.625rem;
+      font-family:'Courier New', Courier, monospace;
+      color: white;
+      text-align: center; 
+      border-radius: 49PX;
+      margin-top: 10px;
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn1 {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  font-family: Georgia;
+  color: black;
+  font-size: 16px;
+  background: #C6B497;
+  padding: 10px 159px 10px 159px;
+  text-decoration: none;
+ margin: 5px 1px;
+}
+
+.btn1:hover {
+  background: #839B97;
+  text-decoration: none;
+}
+.header{
+   margin: 20px 10px; 
+   padding: 20px;
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #101111;
+ }
+ .images{
+     width:465px;
+     height:350px;
+ }
+ .image3{
+     width:400px;
+     height:350px;
+ }
+ .container {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+  }
+ .leftpane {
+    width: 35%;
+    height: 1000px;
+    float: left;
+    border-collapse: collapse;
+}
+.middlepane {
+    width: 35%;
+    height: 1000px;
+    float: left;
+    border-collapse: collapse;
+}
+.rightpane {
+    width:30%;
+    height:1000px;
+    float: right;
+    border-collapse: collapse;
+  } 
+  .data{
+      text-align: center;
+      margin: 2px 20px;
+  }

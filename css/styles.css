@@ -1,0 +1,111 @@
+body{
+width: 75%;
+margin: 30px auto;
+background-image: url(https://wallpapercave.com/wp/wp2593836.jpg);
+  }
+
+  .title_text{
+      font-size: 4.625rem;
+      font-family:'Courier New', Courier, monospace;
+      color: white;
+      text-align: center; 
+      width: 100%;
+}
+
+/* .select{
+   width: 20%; 
+   margin: auto; 
+   padding: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #418080;
+  border-style: solid;
+  border-color: #418080;
+  border-radius: 20px;
+  background-color: #aef1f35e;
+ } */
+
+.countries{
+  width: 100%;
+  margin-top: 100px;
+/* align-items: center;
+justify-content: center;
+margin: 200px 200px; */
+}
+.book{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+margin-top: 30px;
+}
+/* 
+.gif{
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+} */
+.btn {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #418080;
+    padding: 10px 23px 10px 23px;
+    text-decoration: none;
+    margin: 10px 10px;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background: #66a6a6;
+    background-image: -webkit-linear-gradient(top, #66a6a6, #2ec7c7);
+    background-image: -moz-linear-gradient(top, #66a6a6, #2ec7c7);
+    background-image: -ms-linear-gradient(top, #66a6a6, #2ec7c7);
+    background-image: -o-linear-gradient(top, #66a6a6, #2ec7c7);
+    background-image: linear-gradient(to bottom, #66a6a6, #2ec7c7);
+    text-decoration: none;
+  }
+  .btn1 {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: Arial;
+    color: #060c66;
+    font-size: 22px;
+    font-weight: bold;
+    background: #b9c8caab;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn1:hover {
+    background: #31c9dd9c;
+    text-decoration: none;
+    color: black;
+  }
+  .btn2 {
+    background: #d9c96f;
+    background-image: -webkit-linear-gradient(top, #d9c96f, #72b0ba);
+    background-image: -moz-linear-gradient(top, #d9c96f, #72b0ba);
+    background-image: -ms-linear-gradient(top, #d9c96f, #72b0ba);
+    background-image: -o-linear-gradient(top, #d9c96f, #72b0ba);
+    background-image: linear-gradient(to bottom, #d9c96f, #72b0ba);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: black;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn2:hover {
+    background: #877117;
+    text-decoration: none;
+  }
+

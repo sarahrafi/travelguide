@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.js" type="text/Javascript">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/tour.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Comfortaa:wght@500&family=Fuzzy+Bubbles:wght@700&family=Merienda+One&family=Merriweather&family=Montserrat&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
+
+<title>Private Tour</title>
+</head>
+<body>
+  <script src="js.js"></script>
+
+  <div class="intro">
+    A trip as great as the destinations.
+  </div>  
+
+  <p style="font-family:'Merienda One',cursive;display:flex;justify-content:center;margin:30px auto;font-size:10px;font-size:2vw;"> Enjoy an all-inclusive private tour to the most wonderful locations </p>
+
+<div class="box">
+  <label for="name"> Full Name: </label>
+  <input type="text" id="name" name="fname"> <br>
+
+  <label for="members"> Number of members: </label>
+  <input type="number" value="0"> <br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"> <br>
+
+  <label for="tel">Phone number:</label>
+  <input type="tel" id="tel" name="tel"> <br>
+
+  <label for="package"> Select your package: </label>
+  <select>
+  <option>_choose_</option>
+  <option>Standard- SAR 50/per person</option>
+  <option>Gold- SAR 70/per person</option>
+  <option>Premium- SAR 100/per person</option>
+</select> <br>
+
+<div>
+  <label for="selector">Select Country: </label>
+  <select id="selector" onchange="yesnoCheck(this);">
+      <option value="select">country</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="italy">Italy</option>
+      <option value="south korea">South Korea</option>
+      <option value="france">France</option>  
+  </select>
+</div>
+
+<div id="adc" style="display: none;">
+  <label for="malaysia">Select City:</label> 
+  <select>
+  <option value="select">_city_</option>
+  <option value="KL">Kuala Lumpur</option>
+  <option value="LK">Langkawi</option>
+  <option value="GH">Genting Highland</option>
+  <option value="PJ">Putra jaya</option>
+</select>
+
+</div>
+<div id="pc" style="display: none;">
+  <label for="italy">Select City:</label> 
+  <select>
+      <option value="select">_city_</option>
+      <option value="KL">Rome</option>
+      <option value="LK">Florence</option>
+      <option value="GH">Naples</option>
+      <option value="PJ">Milan</option>
+  </select>
+</div>
+<div id="ps" style="display: none;">
+  <label for="south korea">Select City:</label> 
+  <select>
+      <option value="select">_city_</option>
+      <option value="KL">Seoul</option>
+      <option value="LK">Busan</option>
+      <option value="GH">Jeju Island</option>
+      <option value="PJ">Incheon</option>
+  </select>
+</div>
+<div id="fr" style="display: none;">
+  <label for="france">Select City:</label> 
+  <select>
+      <option value="select">_city_</option>
+      <option value="KL">Paris</option>
+      <option value="LK">Lyon</option>
+      <option value="GH">_____</option>
+      <option value="PJ">______</option>
+  </select>
+</div>
+
+  <input type="submit" onclick="clicked(event)" />
+</div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(https://1.bp.blogspot.com/-5jbNc6lF9SY/YE9rhgMeXDI/AAAAAAAAYJo/j3nRm_mo34sCG8XocRJ_RabzRdJoTNfbwCNcBGAsYHQ/s16000/Animation_2021-03-15-23-10-02.gif);
+  background-repeat: no-repeat;
+  background-size: 130% ;
+  }
+  .flag{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+.title_text{
+    font-size: 4.625rem;
+    font-family: 'Merriweather', serif;
+    color: rgb(45, 105, 233);
+    text-align: center; 
+    font-weight: bold;
+    margin: 20px 10px;
+} 
+.countries{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+/* .gif{
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+} */
+.bottom_container{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.btn{
+    background: #0d14e3;
+    background-image: -webkit-linear-gradient(top, #0d14e3, #d41313);
+    background-image: -moz-linear-gradient(top, #0d14e3, #d41313);
+    background-image: -ms-linear-gradient(top, #0d14e3, #d41313);
+    background-image: -o-linear-gradient(top, #0d14e3, #d41313);
+    background-image: linear-gradient(to bottom, #0d14e3, #d41313);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 10px 10px;
+    display: inline-block;
+  }
+  .btn:hover {
+    background: #e67878;
+    background-image: -webkit-linear-gradient(top, #e67878, #7e90e6);
+    background-image: -moz-linear-gradient(top, #e67878, #7e90e6);
+    background-image: -ms-linear-gradient(top, #e67878, #7e90e6);
+    background-image: -o-linear-gradient(top, #e67878, #7e90e6);
+    background-image: linear-gradient(to bottom, #e67878, #7e90e6);
+    text-decoration: none;
+  }
